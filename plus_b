@@ -3,7 +3,10 @@ import sys
 x=0.0
 
 for n in sys.argv[1:]:
-    x+=float(n)
-
+    try:
+        x+=int(n)
+    except:
+        x += float(line)
+    
 print(x)
 
