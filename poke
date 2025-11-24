@@ -17,5 +17,5 @@ if response.status_code == 200:
     for i in range(6):
         print(stats[i]["base_stat"])
 else:
-    peint("erorr")
+    print("erorr")
 
