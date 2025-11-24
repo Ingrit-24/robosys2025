@@ -14,9 +14,7 @@ $ chmod +x poke
 ```
 2. コマンド実行例
 ```bash
-$ echo pikachu | .poke
-```
-```
+$ echo pikachu | ./poke
 35
 55
 40
