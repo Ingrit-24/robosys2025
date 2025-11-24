@@ -28,8 +28,8 @@ $ echo pikachu | ./poke
 
 
 ## ライセンス
-- このソフトウェアパッケージは、三条項BSDライセンスの下、再配布及び仕様が許可されます。
-- pokeコマンドでは三条項BSDライセンスの下PokeAPIを使用しています。　PokeAPI：https://github.com/orgs/PokeAPI/repositories?type=all
+- このソフトウェアパッケージは、**三条項BSDライセンスの下**、再配布及び仕様が許可されます。
+- pokeコマンドでは**三条項BSDライセンスの下で提供されるPokeAPI**を使用しています。　[PokeAPI GitHub](https://github.com/orgs/PokeAPI/repositories?type=all)
 - 本プロジェクトは任天堂及びポケモン公式関係者とは無関係で、教育目的でのみ作成されています。
 - @ 2025 Shogo Takizawa
 
