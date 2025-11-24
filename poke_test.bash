@@ -27,3 +27,4 @@ status=$?
 [ "${out}" = "" ] || ng "$LINENO"
 
 exit $res
+
