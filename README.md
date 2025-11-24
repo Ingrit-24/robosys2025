@@ -1,6 +1,3 @@
-# robosys2025
-ロボットシステム学課題１
-
 # pokeコマンド
 ![test](https://github.com/Ingrit-24/robosys2025/actions/workflows/poke_test.yml/badge.svg)
 
@@ -30,6 +27,9 @@ $ echo pikachu | ./poke
 - Ubuntu 24.04 LTS
 
 
-##　ライセンス
+## ライセンス
 - このソフトウェアパッケージは、三条項BSDライセンスの下、再配布及び仕様が許可されます。
-@ 2025 Shogo Takizawa
+- pokeコマンドでは三条項BSDライセンスの下PokeAPIを使用しています。　PokeAPI：https://github.com/orgs/PokeAPI/repositories?type=all
+- 本プロジェクトは任天堂及びポケモン公式関係者とは無関係で、教育目的でのみ作成されています。
+- @ 2025 Shogo Takizawa
+
