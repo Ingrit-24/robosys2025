@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2025 Shogo Takizawa
+# SPDX-License-Identifier: BSD-3-Clause
+
+import requests
+import sys
+
+name = sys.stdin.read()
+processed_name = name.split()
+
+url = "https://pokeapi.co/api/v2/pokemon/"+str(processed_name[0])
+
+response = requests.get(url)
+if response.status_code == 200:
+    deta = response.json()
+    stats=deta["stats"]
+    for i in range(6):
+        print(stats[i]["base_stat"])
+else:
+    peint("erorr")
+
