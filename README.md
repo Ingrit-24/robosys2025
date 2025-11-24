@@ -4,7 +4,7 @@
 # pokeコマンド
 ![test](https://github.com/Ingrit-24/robosys2025/actions/workflows/poke_test.yml/badge.svg)
 
-標準入力からポケモンの英語名を読み込み、種族値を返す。
+標準入力からポケモンの英語名を読み込み、種族値を返すコマンド。
 
 ## 使い方
 1. スクリプトに実行権限を付与：
@@ -28,3 +28,8 @@ $ echo pikachu | ./poke
 
 ## テスト環境
 - Ubuntu 24.04 LTS
+
+
+##　ライセンス
+- このソフトウェアパッケージは、三条項BSDライセンスの下、再配布及び仕様が許可されます。
+@ 2025 Shogo Takizawa
