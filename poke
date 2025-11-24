@@ -16,6 +16,7 @@ if response.status_code == 200:
     stats=deta["stats"]
     for i in range(6):
         print(stats[i]["base_stat"])
+    sys.exit(0)
 else:
-    print("erorr")
+    sys.exit(1)
 
