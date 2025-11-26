@@ -23,6 +23,13 @@ $ echo pikachu | ./poke
 50
 90
 ```
+- 存在しないポケモン名には何も返しません
+```bash
+$ echo hoge | ./poke
+
+```
+
+
 ## 必要なソフトウェア及び依存ライブラリ
 - Python
   - テスト済みバージョン: 3.7〜3.12
@@ -37,4 +44,8 @@ $ echo pikachu | ./poke
 - pokeコマンドでは**三条項BSDライセンスの下で提供されるPokeAPI**を使用しています。　[PokeAPI GitHub](https://github.com/orgs/PokeAPI/repositories?type=all)
 - 本プロジェクトは任天堂及びポケモン公式関係者とは無関係で、教育目的でのみ作成されています。
 - @ 2025 Shogo Takizawa
+
+## 注意事項
+- APIサーバーへの負荷を軽減するため、pokeコマンドの過度な連続実行はしないでください。
+- スクリプト等を利用した短時間における大量のpokeコマンドの実行はしないでください。
 
