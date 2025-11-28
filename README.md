@@ -8,7 +8,7 @@
 ```bash
 $ pip install requests
 ```
-2. リポジトリをクローン：
+2. リポジトリをクローン
 ```bash
 $ git clone https://github.com/Ingrit-24/robosys2025
 ```
