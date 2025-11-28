@@ -8,12 +8,14 @@
 ```bash
 $ pip install requests
 ```
-2. スクリプトに実行権限を付与：
-
+2. リポジトリをクローン：
 ```bash
-$ chmod +x poke
+$ git clone https://github.com/Ingrit-24/robosys2025
 ```
-3. コマンド実行例
+```bash
+$ cd robosys2025
+```
+4. コマンド実行例
 ```bash
 $ echo pikachu | ./poke
 35
