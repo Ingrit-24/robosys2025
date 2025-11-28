@@ -15,7 +15,7 @@ $ git clone https://github.com/Ingrit-24/robosys2025
 ```bash
 $ cd robosys2025
 ```
-4. コマンド実行例
+3. コマンド実行例
 ```bash
 $ echo pikachu | ./poke
 35
