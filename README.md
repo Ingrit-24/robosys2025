@@ -45,7 +45,7 @@ $ echo hoge | ./poke
 - このソフトウェアパッケージは、**三条項BSDライセンスの下**、再配布及び仕様が許可されます。
 - pokeコマンドでは**三条項BSDライセンスの下で提供されるPokeAPI**を使用しています。　[PokeAPI GitHub](https://github.com/orgs/PokeAPI/repositories?type=all)
 - 本プロジェクトは任天堂及びポケモン公式関係者とは無関係で、教育目的でのみ作成されています。
-- @ 2025 Shogo Takizawa
+- © 2025 Shogo Takizawa
 
 ## 注意事項
 - APIサーバーへの負荷を軽減するため、pokeコマンドの過度な連続実行はしないでください。
