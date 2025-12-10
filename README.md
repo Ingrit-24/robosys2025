@@ -11,8 +11,6 @@ $ pip install requests
 2. リポジトリをクローン
 ```bash
 $ git clone https://github.com/Ingrit-24/robosys2025
-```
-```bash
 $ cd robosys2025
 ```
 3. コマンド実行例
