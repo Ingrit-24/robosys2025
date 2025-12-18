@@ -34,7 +34,7 @@ for i in $(seq 0 5); do
         [ "${arr_4[$i]}" == "${expected[$i]}" ] || ng "$LINENO"
 done
 
-#空白の多々しい処理確認
+#空白の正しい処理確認
 readarray -t arr_5 < <(echo garchomp                   | ./poke)
 for i in $(seq 0 5); do
         [ "${arr_5[$i]}" == "${expected[$i]}" ] || ng "$LINENO"
