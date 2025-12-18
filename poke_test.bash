@@ -16,11 +16,15 @@ for i in $(seq 0 5); do
         [ "${arr_1[$i]}" == "${expected[$i]}" ] || ng "$LINENO"
 done
 
+sleep 2
+
 #すべて大文字
 readarray -t arr_2 < <(echo GARCHOMP | ./poke)
 for i in $(seq 0 5); do
         [ "${arr_2[$i]}" == "${expected[$i]}" ] || ng "$LINENO"
 done
+
+sleep 2
 
 #一文字目のみ大文字
 readarray -t arr_3 < <(echo Garchomp | ./poke)
@@ -28,17 +32,23 @@ for i in $(seq 0 5); do
         [ "${arr_3[$i]}" == "${expected[$i]}" ] || ng "$LINENO"
 done
 
+sleep 2
+
 #大文字ランダム
 readarray -t arr_4 < <(echo GarChoMp | ./poke)
 for i in $(seq 0 5); do
         [ "${arr_4[$i]}" == "${expected[$i]}" ] || ng "$LINENO"
 done
 
+sleep 2
+
 #空白の正しい処理確認
 readarray -t arr_5 < <(echo garchomp                   | ./poke)
 for i in $(seq 0 5); do
         [ "${arr_5[$i]}" == "${expected[$i]}" ] || ng "$LINENO"
 done
+
+sleep 2
 
 out=$(echo hoge | ./poke)
 status=$?
