@@ -50,11 +50,13 @@ done
 
 sleep 2
 
+#存在しないなまえ
 out=$(echo hoge | ./poke)
 status=$?
 [ "$status" = "1" ] || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
+#何もない
 out=$(echo | ./poke )
 status=$?
 [ "$status" = "1" ] || ng "$LINENO"
