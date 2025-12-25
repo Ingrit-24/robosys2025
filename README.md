@@ -23,7 +23,7 @@ $ echo pikachu | ./poke
 50
 90
 ```
-- PokeAPIの仕様より、ポケモン名の大文字小文字はどちらも有効です。
+- PokeAPIの仕様(2025年12月現在)より、ポケモン名の大文字小文字はどちらも有効です。
 ```bash
 $ echo PikaChu | ./poke
 35
@@ -50,7 +50,7 @@ $ echo hoge | ./poke
 
 
 ## ライセンス
-- このソフトウェアパッケージは、**三条項BSDライセンスの下**、再配布及び仕様が許可されます。
+- このソフトウェアパッケージは、**三条項BSDライセンスの下**、再配布及び使用が許可されます。
 - pokeコマンドでは**三条項BSDライセンスの下で提供されるPokeAPI**を使用しています。　[PokeAPI GitHub](https://github.com/orgs/PokeAPI/repositories?type=all)
 - 本プロジェクトは任天堂及びポケモン公式関係者とは無関係で、教育目的でのみ作成されています。
 - © 2025 Shogo Takizawa
