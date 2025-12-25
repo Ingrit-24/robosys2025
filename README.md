@@ -23,7 +23,7 @@ $ echo pikachu | ./poke
 50
 90
 ```
--PokeAPIの仕様より、ポケモン名の大文字小文字はどちらも有効です。
+- PokeAPIの仕様より、ポケモン名の大文字小文字はどちらも有効です。
 ```bash
 $ echo PikaChu | ./poke
 35
